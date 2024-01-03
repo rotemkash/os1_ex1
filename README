@@ -1,0 +1,77 @@
+File: ex1a.c
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+The father defines an array of one hundred thousand cells. 
+Then the parent fills the array so that it is sorted.
+He does this by inserting into cell #0 a random value in the range between 0 and 10 (including 0, not including 10), and for each additional cell the value that was in the previous cell and another random value in the range 0..9 will be inserted.
+The father then gives birth to two children.
+Each child grills a million times a number between zero and a million (including 0 and not including a million), and searches for it in the array. Child A searches for the value serial search, child B searches for binary search.. Each child measures how long it took him to complete the task.
+Compile: gcc ex1a.c -Wall -o ex1a
+
+Run: ex1a
+
+Input: Through the arguments vector name of a file, as well as a natural value to be transferred to: srand.
+
+Output: The child will output to the file: the letter s or the letter b, whether he searched serially or binary, how many values ​​(from the dictionary of values ​​that is the grill) were found in the array, how long it took to complete the task.
+At the end of the above, the father has a file of twenty lines.
+The father calculates and displays two numbers (on one line, with a space between them): how long on average did the ten children who performed a serial search run, how long on average did the ten children who performed a binary search ran.
+
+Finally, the father presents in a separate line another figure (third): how long it took him to run from the moment he started, until he finished.
+
+
+File:  str_str.c
+Find substring in a string
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+
+This program receives two strings and it checks if the first string
+appears in the second string then it returns the index where it starts.
+
+Compile: gcc str_str.c -Wall -o str_str
+
+Run: str_str
+
+File:  count.c
+Find Max string
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+
+This program receives two strings and count how much of the first string's letters
+appears in the second string.
+
+Compile: gcc count.c -Wall -o count
+
+Run: count
+
+File:  max.c
+Find substring in a string
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+
+This program receives multiple strings and it prints the biggest 
+string in them all
+
+Compile: gcc max.c -Wall -o max
+
+Run: max
+
+File: ex1b.c
+shell
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+
+This program receives input from the user:
+it receives a command (str_str, count, max) and the arguments required
+for that command. it calles the executable file for the matching
+command and sends the arguments to it. if it receives exit the program
+exits, otherwise it prints an error and waits for the next input from
+the user
+
+Compile: gcc ex1b.c -Wall -o ex1b
+
+Run: ex1b
